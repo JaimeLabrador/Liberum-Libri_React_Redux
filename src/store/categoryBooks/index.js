@@ -1,0 +1,1 @@
+export {default, activateLoading, setCategoryBookList, getBooks,  booksOfCategoryName, getNumberOfItems} from './slice'

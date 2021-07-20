@@ -1,0 +1,1 @@
+export { default, categoriesListName, setCategories, getCategoriesList} from './slice'

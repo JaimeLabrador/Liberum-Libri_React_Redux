@@ -1,0 +1,14 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  background-image: url('https://ae01.alicdn.com/kf/HTB1.ik4xamWBuNjy1Xaq6xCbXXak/HUAYI-Fondo-de-fotograf-a-para-reci-n-nacido-fondos-de-estudio-fotogr-fico-estanter-a.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh ;
+}

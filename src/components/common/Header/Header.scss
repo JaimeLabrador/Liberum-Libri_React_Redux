@@ -1,0 +1,122 @@
+@import '../../../styles/media.scss';
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+    &__button{
+        height: 30px;
+        width: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        border-radius: 30px;
+        border-width: 1.5px;
+        background-color: rgb(255, 254, 254);
+        span{
+            margin:0;
+        }
+    }
+    &__position{
+        form{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+    &__link{
+        img{
+            height: 50px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 5px;
+        }
+    }
+    &__input{
+        height: 25px;
+        width: 80px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
+        border-radius: 15px;
+    }
+    &__login{
+        position: absolute;
+        right: 70px;
+        top:5px;
+    }
+    &__user{
+        position: absolute;
+        right: 6%;
+        top:5px;
+    }
+}
+
+@include mobile {
+    .nav{
+        justify-content: flex-start;
+        &__input{
+            width: 100px;
+        }
+        &__position{
+            form{
+                margin: 0;
+            }
+        }
+        &__login{
+            top:20px;
+            right: 80px;
+        }
+        &__user{
+            top:20px;
+        }
+    }
+}
+@include tablet {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(224, 224, 224);
+    }
+    .nav{
+        &__input{
+            width: 150px;
+        }
+        &__position{
+            form{
+                flex-direction: row-reverse;
+            }
+        }
+        &__login{
+            top:20px;
+            right: 110px;
+        }
+        &__user{
+            top:20px;
+        }
+    }
+    .move{
+        position: absolute;
+        left: 50px;
+    }
+}
+
+@include desktop {
+    .nav{
+        &__input{
+            width: 200px;
+        }
+        &__login{
+            top:20px;
+            right: 18%;
+        }
+        &__user{
+            right: 12%;
+            top:20px;
+        }
+    }
+}

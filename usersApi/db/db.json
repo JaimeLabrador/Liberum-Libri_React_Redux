@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "fakeUser",
+      "age": "999",
+      "gendre": "other",
+      "email": "fakeUser@hotmail.com",
+      "password": "123456",
+      "passwordRepeat": "123456"
+    },
+    {
+      "passwordRepeat": "456456",
+      "password": "456456",
+      "email": "jaime.labrador90@gmail.com",
+      "gendre": "hombre",
+      "age": 30,
+      "name": "Jaime Labrador Toribio",
+      "id": 2
+    }
+  ]
+}
